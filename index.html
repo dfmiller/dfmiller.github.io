@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+	
+	html, body {
+		height: 100%;
+		margin: 0;
+		overflow: auto;
+	}
+	
+	body {
+		--header-height: 64px;
+	}
+	
+	header {
+		display: flex;
+		justify-content: space-between; 
+		align-items: center;
+		background: salmon;
+		border-radius: 0 0 32px 32px;
+		height: 64px;
+		padding: 16px;
+		box-sizing: border-box;
+		position: fixed; 
+		top: 0;
+		left: 0;
+		right: 0;
+		width: 100vw;
+		z-index: 650;
+	}
+	
+	.wrapper {
+		xdisplay: flex;
+		xwidth:100vw;
+	}
+	
+	nav {
+		background: cyan;
+		height: 100vh;
+		box-sizing: border-box; 
+		padding: 88px 24px 24px;
+		position: fixed; 
+		top: 0;
+		left: 0;
+		bottom: 0;
+		width: 96px;
+		height: 100vh;
+		z-index: 600;
+		overflow: auto;
+	}
+	
+	main {
+		margin-left: 96px;
+		padding: 88px 24px 24px;
+		background: silver;
+		box-sizing: border-box;
+		overflow: auto;
+		min-height: 100vh;
+	}
+
+	p {
+		display: block;
+		width: 130vw;
+		height: 120vh;
+		background: red;
+	}
+	
+	x {
+		xmax-width: calc(100vw - 96px);
+		overflow: auto;
+	}
+
+</style>
+    <title>Layout</title>
+</head>
+<body>
+	<header>
+		<span>
+			<img src="x" />
+			header
+		</span>
+		<div>controls</div>
+	</header>
+	<div class="wrapper">
+	<nav>
+		nav
+		<p></p>
+	</nav>
+	<main>
+		main
+		<div class="vx">
+			<p></p>
+		</div>
+	</main>
+	</div>
+</body>
+<script>
+	
+</script>
+</html>
