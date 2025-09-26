@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/bold/style.css" />
+<style>
+	
+ html, body {
+  height: 100%;
+  margin: 0;
+  overflow: auto;
+ }
+	
+ header {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  background: linear-gradient(45deg, azure, lightblue);
+  height: 64px;
+  padding: 16px;
+  box-sizing: border-box;
+  position: sticky; 
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100vw;
+  z-index: 600;
+  font-size: 24px;
+  a {
+   color: inherit;
+   text-decoration: none;
+  }
+ }
+	
+ nav {
+  background: linear-gradient(45deg, azure, lightblue);;
+  width: 100%;
+  max-height: 100%;
+  box-sizing: border-box; 
+  padding: 24px;
+  position: sticky; 
+  bottom: 0;
+  left: 0;
+  bottom: -100%;
+  z-index: 700;
+  overflow: auto;
+  border-radius: 8px 8px 0 0;
+  transition: .25s bottom;
+	
+   li {
+  list-style: none; 
+  padding: 16px;
+  margin:0;
+   }
+	
+   &.active {
+  bottom: 0;
+   }
+ }
+	
+ main {
+  padding: 24px;
+  background: silver;
+  box-sizing: border-box;
+  overflow: auto;
+  min-height: 100vh;
+ }
+ .ph,
+      .ph-bold {
+        font-size: 36px;
+      }
+
+</style>
+    <title>Night Formula 828</title>
+      <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body>
+ <header>
+  <a href="./">
+   <img src="x" />
+   Night Formula 828
+  </a>
+  <div>
+          <i class="open-menu ph-bold ph-list"></i>
+        </div>
+ </header>
+ <main>
+  <p>
+  Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
+  </p><p>
+Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
+ </p><p>
+Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
+ </p><p>
+Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
+ </p><p>
+Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos. </p>
+ </main>
+ <nav class="nav">
+  <li>test</li>
+  <li>test</li>
+  <li>test</li>
+ </nav>
+</body>
+<script>
+
+  document.querySelector('.open-menu').addEventListener('click', ()=>{
+    const nav = document. querySelector('.nav').classList.toggle('active')
+})
+	
+</script>
+</html>

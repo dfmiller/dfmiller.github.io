@@ -1,98 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="">
+  <head>
     <meta charset="UTF-8">
+    <link rel="icon" href="/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style>
-
-	:root {
-		--mobile-width: 480px;
-		--tablet-width: 768px;
-		--laptop-width: 1024px;
-	}
-	
-	html, body {
-		height: 100%;
-		margin: 0;
-		overflow: auto;
-	}
-	
-	body {
-		--header-height: 64px;
-	}
-	
-	header {
-		display: flex;
-		justify-content: space-between; 
-		align-items: center;
-		background: salmon;
-		border-radius: 0 0 32px 32px;
-		height: 64px;
-		padding: 16px;
-		box-sizing: border-box;
-		position: fixed; 
-		top: 0;
-		left: 0;
-		right: 0;
-		width: 100vw;
-		z-index: 650;
-	}
-		
-	nav {
-		background: cyan;
-		box-sizing: border-box; 
-		padding: 88px 16px 16px;
-		position: fixed; 
-		top: 0;
-		left: 0;
-		bottom: 0;
-		width: 96px;
-		height: 100vh;
-		z-index: 600;
-		overflow: auto;
-		scrollbar-width: none;
-	}
-	
-	main {
-		margin-left: 96px;
-		padding: 88px 24px 24px;
-		background: silver;
-		box-sizing: border-box;
-		overflow: auto;
-		min-height: 100vh;
-	}
-
-	p {
-		display: block;
-		height: 120vh;
-		background: red;
-	}
-	
-</style>
-    <title>Layout</title>
-</head>
-<body>
-	<header>
-		<span>
-			<img src="x" />
-			Darin F Miller - Samples
-		</span>
-		<div>controls</div>
-	</header>
-	<div class="wrapper">
-	<nav>
-		nav
-		<p></p>
-	</nav>
-	<main>
-		main
-		<div>
-			<p></p>
-		</div>
-	</main>
-	</div>
-</body>
-<script>
-	
-</script>
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/bold/style.css" />
+    <title>Night 828</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
 </html>
